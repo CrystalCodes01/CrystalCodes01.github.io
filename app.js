@@ -1,35 +1,27 @@
-// // init bunch of sounds
+// // // init bunch of sounds
 // ion.sound({
-//   // list of sound files you want to load
-//     sounds: [
-//         {
-//         name: "beer_can_opening",
-//         loop: 3
-//         },
-//         {name: "bell_ring"},
-//         {name: "branch_break"},
-//         {name: "button_click"}
-//     ],
-//
-//     // path to the folder where the cound files are
+// // list of sound files you want to load
+//     sounds: [{name: "door_bump"}],
+// //
+// // path to the folder where the cound files are
 //     path: "ion.sound-3.0.7/sounds/",
-//     // starts loading before use
+// // starts loading before use
 //     preload: true,
-//     // multi sound
-//     multiplay: true,
-//     // 90%
-//     volume: 0.9
-// });
+// // multi sound
+//    multiplay: true,
+// // 90%
+//    volume: 0.9
+//  });
 //
 // $(document).ready(function() {
-//   $('#open-beer').click(function () {
-//     ion.sound.play('beer_can_opening');
+//    $('#door_bump').OnClick(function () {
+//   ion.sound.play('door_bump');
 //   });
-// });
+//  });
 //
 // // play sound
 // ion.sound.play("beer_can_opening");
-
+// id="door_bump"
 
 
 $(window).load(function(){
@@ -38,10 +30,14 @@ images: [ // an array of background images
 'images/enter.jpg',
 'images/creepy.jpg',
 'images/fence.jpg',
-'images/roller.jpg'
+'images/roller.jpg',
+'images/splitframe.jpg',
+'images/tracks.jpg',
+'images/stoplight.jpg',
+'images/broken.jpg'
 ],
 interval: 10000,
-speed : 10, 
+speed : 5,
 ignoreError : false,
 changeMode : 'normal', // normal or random
 initIndex : 0,

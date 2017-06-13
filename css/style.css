@@ -11,7 +11,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
   min-height: 100%;
-  padding-bottom: 100%;
+  padding-bottom: 700px;
+}
+
+audio {
+  display: none;
 }
 
 
@@ -27,8 +31,6 @@ body {
   font-family: fantasy;
   opacity: 0.8;
   filter: alpha(opacity=30);
-  /*add baground noise*/
-  /*roating images*/
 }
 
 .typewriter {
