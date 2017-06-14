@@ -46,13 +46,13 @@ cloneClassName : 'easybgClone',
 debug : false
   });
 });
-
+var submit;
 
 $(document).ready(function() {
   function start() {
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-  $('.my-submit').click(function (start) {
-    console.log('first click');
+  submit = $('.my-submit').click(function (start) {
+
     var choice = $('.user-input').val();
      $('.user-input').val("");
 
@@ -80,7 +80,8 @@ function clown() {
     $(".typewriter4").html("2. Say hell no and start slowly backing away.");
 
     $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-    $('.my-submit').click(function (start) {
+      submit = $('.my-submit').click(function (start) {
+
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
@@ -108,9 +109,10 @@ function girl() {
     $(".typewriter4").html("2. Say no thank you because Im pretty sure you were in that movie The Ring and it did not end well.");
 
     $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-    $('.my-submit').click(function (start) {
-      var choice = $('.user-input').val();
-      $('.user-input').val("");
+      submit = $('.my-submit').click(function (start) {
+
+        var choice = $('.user-input').val();
+        $('.user-input').val("");
 
     if ( choice == "1" ) {
       red_ruby();
@@ -135,7 +137,8 @@ function girl() {
      $(".typewriter4").html("2. Talk to the insane clown.");
 
     $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-        $('.my-submit').click(function (start) {
+      submit = $('.my-submit').click(function (start) {
+
           var choice = $('.user-input').val();
           $('.user-input').val("");
 
@@ -162,7 +165,8 @@ function door() {
     $(".typewriter4").html("2. Go down the tunnel..");
 
       $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-          $('.my-submit').click(function (start) {
+        submit = $('.my-submit').click(function (start) {
+
             var choice = $('.user-input').val();
             $('.user-input').val("");
 
@@ -189,7 +193,8 @@ function red_ruby() {
     $(".typewriter4").html("2. Leave now, you dont want red eyes.");
 
       $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-          $('.my-submit').click(function (start) {
+        submit = $('.my-submit').click(function (start) {
+
             var choice = $('.user-input').val();
             $('.user-input').val("");
 
@@ -216,7 +221,8 @@ function fun_house() {
     $(".typewriter4").html("2. Check out the gypsy tent");
 
     $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-        $('.my-submit').click(function (start) {
+      submit = $('.my-submit').click(function (start) {
+
           var choice = $('.user-input').val();
           $('.user-input').val("");
 
@@ -246,7 +252,8 @@ function pennywise() {
     $(".typewriter4").html("2. Stop and talk to the clown.");
 
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-      $('.my-submit').click(function (start) {
+    submit = $('.my-submit').click(function (start) {
+
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
@@ -274,7 +281,8 @@ function explore() {
     $(".typewriter4").html("2. Go exploring and take your chances..");
 
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-      $('.my-submit').click(function (start) {
+    submit = $('.my-submit').click(function (start) {
+
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
@@ -302,7 +310,8 @@ function madgirl() {
     $(".typewriter4").html("2. Go to the gypsy tent.");
 
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-      $('.my-submit').click(function (start) {
+    submit = $('.my-submit').click(function (start) {
+
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
@@ -330,7 +339,8 @@ function gypsy() {
     $(".typewriter4").html("2. Leave the park now or face what is ahead..");
 
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
-      $('.my-submit').click(function (start) {
+    submit = $('.my-submit').click(function (start) {
+
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
@@ -349,30 +359,53 @@ function gypsy() {
 }
 
 function house() {
-  var text = "<p>You follow the voice of the girl and her father down the tunnel. As you exit you start climbing a hill to a large house that seems to have appeared out of nowhere..</p>";
-  $(".intro-text").html(text);
+  var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
+    $(".intro-text").html(text);
+    $(".typewriter1").html("You follow the voice of the girl and her father down the tunnel.");
+    $(".typewriter2").html("As you exit you start climbing a hill to a large house that appears out of nowhere.");
+    $(".typewriter3").html("You follow the girl and her father into the house where you become a vampire and live happily ever after.");
+    $(".typewriter4").html("Hope you like the taste of blood!");
 
-  return vampire();
+    $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
+      submit = $('.my-submit').click;
+
 }
 
 function water() {
+  var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
+    $(".intro-text").html(text);
+    $(".typewriter1").html("You wade into the black water only to realise the water is not what it seems..");
+    $(".typewriter2").html("You wade through thick sludge and stuggle to move forward.");
+    $(".typewriter3").html("Suddenly ice cold tentacles wrap around your ankles, you are pulled downward and the tentacles wrap around your body.");
+    $(".typewriter4").html("You see a huge black octopus, that tightens its grip. Right before your last breath you hear the clown cackling.");
 
-  var text = "<p>You slowly wade into the black water only to realise the water is not what it seems, it is thick with sludge and you stuggle to move forward.</p><p>As you start to make your way out you feel ice cold tentacles wrap around your ankles. As you are pulled downward you feel more tentacles wrap around your body.</p><p>You gasp one last breath before being dragged under, where you come face to face with a huge black octopus. Right before your last breath you hear the clown cackling.</p>";
-  $(".intro-text").html(text);
+    $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
+      submit = $('.my-submit').click;
+
 }
 
 function dead() {
-  var text ="<p>You are dead dude. You shouldnt have come to the haunted swap-shop at night!</p>";
+  var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
+    $(".typewriter1").html("You are dead dude.");
+    $(".typewriter2").html("You shouldnt have come to the haunted swap-shop at night.");
+    $(".typewriter3").html("Hey there are some positives here...");
+    $(".typewriter4").html("You can be best friends with the clown and the bloody girl now.");
+
+    $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
+      submit = $('.my-submit').click;
   }
   //
 function exit() {
-  var text ="<p>You escaped Swap swap-shop! Maybe next time you should come during the day =-0</p>";
-  $(".intro-text").html(text);
+  var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
+    $(".intro-text").html(text);
+    $(".typewriter1").html("You escaped Swap swap-shop!");
+    $(".typewriter2").html("Maybe next time you should come during the day.");
+    $(".typewriter3").html("Let's go get a drink after all that...");
+    $(".typewriter4").html("...and hurry it up could have swore I just heard footsteps behind you.");
+
+    $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
+      submit = $('.my-submit').click;
 }
 
-function vampire() {
-  var text ="<p>You follow the girl and her father into the house where you become a vampire and live happily ever after.</p>";
-    $(".intro-text").html(text);
-  }
 });
