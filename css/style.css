@@ -24,7 +24,7 @@ audio {
   font-weight: bold;
   background-color: black;
   border-radius: 20px;
-  margin-top: 100px;
+  margin-top: 200px;
   font-size: 18px;
   font-family: fantasy;
   opacity: 0.8;
@@ -106,6 +106,24 @@ footer {
   margin-top: 500px;
   opacity: 0.8;
   filter: alpha(opacity=30);
+}
+
+.navbar-default {
+  border: none;
+  background-color: black;
+  padding-top: 10px;
+}
+
+.navbar-nav {
+  margin-left: 200px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: fantasy;
+  padding: 40px;
 }
 
 .top-box {
