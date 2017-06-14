@@ -1,7 +1,5 @@
 body {
-  /*background-image: url(../images/enter.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
+
 }
 
 .demo {
@@ -94,4 +92,36 @@ audio {
   margin-right: 5px;
   margin-left: 5px;
   width: 50%;
+}
+
+.after {
+  display: none;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 1000px;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.navbar-default {
+  border: none;
+  background-color: black;
+  padding-top: 10px;
+}
+
+.navbar-nav {
+  margin-left: 200px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: fantasy;
+  padding: 40px;
 }
