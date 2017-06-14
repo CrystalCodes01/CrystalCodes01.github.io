@@ -31,7 +31,7 @@ images: [ // an array of background images
 'images/creepy.jpg',
 'images/it_stephenking.jpg',
 'images/fence.jpg',
-'images/ghostgirl.jpg',
+'images/ghostgirl2.jpg',
 'images/roller.jpg',
 'images/splitframe.jpg',
 'images/tracks.jpg',
@@ -145,7 +145,7 @@ function girl() {
         $('.user-input').val("");
 
         if ( choice == "1" ) {
-          door();
+          fun_house();
         }
 
         else if (choice == "2") {
@@ -161,8 +161,8 @@ function door() {
 
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
-    $(".typewriter1").html("As you back away the clown smiles and says, 'Watch out for the door behind you.' You fall through an open door into a dark room.");
-    $(".typewriter2").html("A dull light glows in the room. You see two tunnels. One has black water you must swim through but there is a light at the end of tunnel. The other is dark and does not have a clear end. What do you do?");
+    $(".typewriter1").html("As you back away the clown smiles and says, 'Watch out behind you.' You fall into a dark room. You see two tunnels.");
+    $(".typewriter2").html("One has black water you must swim through with light at the end of the tunnel. The other is dark and does not have a clear end. What do you do?");
     $(".typewriter3").html("1. Swim through the black water towards the light!");
     $(".typewriter4").html("2. Go down the dark tunnel..");
 
@@ -189,8 +189,8 @@ function red_ruby() {
 
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
-    $(".typewriter1").html("The girl takes your hand and leads you to a man in a black cape. He thanks you for bringing his daughter back to him and hands you a red ruby.</p><p>The stone glows red in your palm and you suddenly feel a little bit stronger. You stare at the ruby and see a vison of yourself wearing a cape, eyes glowing red, sitting next to the girl and her father.");
-    $(".typewriter2").html("You hear a voice down the tunnel that says 'COME WITH US...' Do you continue with the girl and her father or should you get away while you can?");
+    $(".typewriter1").html("The girl takes your hand and leads you to a man in a black cape. He thanks you for bringing his daughter back to him, his eyes glow red..");
+    $(".typewriter2").html("You their voices down the tunnel they say 'COME WITH US...' Do you continue with the girl and her father or should you run?");
     $(".typewriter3").html("1. Stay with the weird family, they seem cool.");
     $(".typewriter4").html("2. Leave now, you dont want red eyes.");
 
@@ -218,7 +218,7 @@ function fun_house() {
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
     $(".typewriter1").html("You jump from the ferris wheel, barely escaping the clowns icey grip. You land on your feet an sprint further into the park.");
-    $(".typewriter2").html("On one side you see the girl still sitting on the bench on the other you see a gypsy tent. Do you approach the girl or head to the tent?");
+    $(".typewriter2").html("You see the girl still sitting on the bench and you see a gypsy tent. Do you approach the girl or head to the tent?");
     $(".typewriter3").html("1. Talk to the girl");
     $(".typewriter4").html("2. Check out the gypsy tent");
 
@@ -278,8 +278,8 @@ function explore() {
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
     $(".typewriter1").html("Deciding not to further anger the clown you try to get him talking. You ask him his name and the screaming stops..");
-    $(".typewriter2").html("Pennywise' he replies and lets you go. He tells you that you can explore the park now, but he will be back for you later. What do you do?");
-    $(".typewriter3").html("1. Leave this park! Why am I here anyway!?");
+    $(".typewriter2").html("Pennywise' he replies. He tells you that you can explore the park now, but he will be back for you. What do you do?");
+    $(".typewriter3").html("1. Leave this park! Why are you here anyway!?");
     $(".typewriter4").html("2. Go exploring and take your chances..");
 
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
@@ -306,10 +306,10 @@ function madgirl() {
 
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
-    $(".typewriter1").html("You have insulted the girl and her father. They begin chasing you.");
-    $(".typewriter2").html("You can either run to the gypsy tent or get on the ferris wheel with the clown. What do you do?");
-    $(".typewriter3").html("1. Get on the ferris wheel with the clown");
-    $(".typewriter4").html("2. Go to the gypsy tent.");
+    $(".typewriter1").html("You have insulted the girl. She starts screaming and chasing you.");
+    $(".typewriter2").html("You can either run to the exit or get on the ferris wheel with the clown. What do you do?");
+    $(".typewriter3").html("1. Leave this park! Why are you here anyway!?");
+    $(".typewriter4").html("2. Get on the ferris wheel with the clown.");
 
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
   submit = $('.my-submit').click(function (start) {
@@ -322,7 +322,7 @@ function madgirl() {
     }
 
     else if (choice == "2") {
-      gypsy();
+      exit();
     }
 
     else {
@@ -335,8 +335,8 @@ function gypsy() {
 
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
-    $(".typewriter1").html("You head to the gypsy tent. Inside is a fortune teller. You dont trust her but you let her tell you your future anyway because you're super smart.");
-    $(".typewriter2").html("She says you have two options...");
+    $(".typewriter1").html("You head to the gypsy tent. Inside is a fortune teller. You dont trust it but..");
+    $(".typewriter2").html("you let her tell you your future anyway because you're super smart. She says you have two options..");
     $(".typewriter3").html("1. Stay in the park and meet with the girl, who she says is your friend.");
     $(".typewriter4").html("2. Leave the park NOW if you don't want to meet the girl..");
 
