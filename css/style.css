@@ -143,6 +143,9 @@ h1 {
   font-family: 'Denk One', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  background-color: black;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
   font-size: 60px;
   font-weight: bolder;
   position: absolute;
