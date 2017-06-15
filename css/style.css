@@ -99,17 +99,20 @@ audio {
 }
 
 footer {
-  height: 200px;
+  height: 500px;
   width: 100%;
   background-color: black;
   color: white;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: fantasy;
   margin-top: 500px;
   opacity: 0.8;
   filter: alpha(opacity=30);
   border-radius: 40px;
 }
 
-.navbar-default {
+/*.navbar-default {
   background-color: black;
   padding-top: 10px;
   border-radius: 40px;
@@ -126,7 +129,7 @@ footer {
   font-size: 26px;
   font-family: fantasy;
   padding: 40px;
-  border-radius: 40px;
+  border-radius: 40px;*/
 }
 
 .top-box {
