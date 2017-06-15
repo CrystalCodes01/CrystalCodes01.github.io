@@ -162,7 +162,7 @@ function door() {
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
     $(".typewriter1").html("As you back away the clown smiles and says, 'Watch out behind you.' You fall into a dark room. You see two tunnels.");
-    $(".typewriter2").html("One has black water you must swim through with light at the end of the tunnel. The other is dark and does not have a clear end. What do you do?");
+    $(".typewriter2").html("One has black water you must swim through. The other is dark and does not have a clear end. What do you do?");
     $(".typewriter3").html("1. Swim through the black water towards the light!");
     $(".typewriter4").html("2. Go down the dark tunnel..");
 
