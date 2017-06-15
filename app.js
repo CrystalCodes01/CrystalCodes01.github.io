@@ -78,7 +78,7 @@ function clown() {
     $(".intro-text").html(text);
     $(".typewriter1").html("The clown's head spins backwards and he asks you to join him for a ride.");
     $(".typewriter2").html("What do you do?");
-    $(".typewriter3").html("1. Say yes because this is totally normal behaviour.");
+    $(".typewriter3").html("1. Say yes because this is totally normal behavior.");
     $(".typewriter4").html("2. Say hell no and start slowly backing away.");
 
     $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
@@ -107,7 +107,7 @@ function girl() {
     $(".intro-text").html(text);
     $(".typewriter1").html("The girl reaches out her hand to you, it is covered in blood. She says come with me.");
     $(".typewriter2").html("What do you do?");
-    $(".typewriter3").html("1. Take her hand because whats the worst that could happen going with this creepy bloody girl?");
+    $(".typewriter3").html("1. Take her hand because what's the worst that could happen going with this creepy bloody girl?");
     $(".typewriter4").html("2. Say no thank you because Im pretty sure you were in that movie The Ring and it did not end well.");
 
     $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
@@ -134,7 +134,7 @@ function girl() {
    var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
      $(".intro-text").html(text);
      $(".typewriter1").html("As you board the ferris wheel, it starts to spin really fast. The clown screams 'You are never getting off!'");
-     $(".typewriter2").html("You have two options jump from the lowest point or try to talk to the clown. What do you do?");
+     $(".typewriter2").html("You have two options: jump from the lowest point or try to talk to the clown. What do you do?");
      $(".typewriter3").html("1. JUMP!");
      $(".typewriter4").html("2. Talk to the insane clown.");
 
@@ -278,7 +278,7 @@ function explore() {
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
     $(".typewriter1").html("Deciding not to further anger the clown you try to get him talking. You ask him his name and the screaming stops..");
-    $(".typewriter2").html("Pennywise' he replies. He tells you that you can explore the park now, but he will be back for you. What do you do?");
+    $(".typewriter2").html("'Pennywise' he replies. He tells you that you can explore the park now, but he will be back for you. What do you do?");
     $(".typewriter3").html("1. Leave this park! Why are you here anyway!?");
     $(".typewriter4").html("2. Go exploring and take your chances..");
 
@@ -335,7 +335,7 @@ function gypsy() {
 
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
-    $(".typewriter1").html("You head to the gypsy tent. Inside is a fortune teller. You dont trust it but..");
+    $(".typewriter1").html("You go to the gypsy tent. Inside is a fortune teller. You dont trust it but..");
     $(".typewriter2").html("you let her tell you your future anyway because you're super smart. She says you have two options..");
     $(".typewriter3").html("1. Stay in the park and meet with the girl, who she says is your friend.");
     $(".typewriter4").html("2. Leave the park NOW if you don't want to meet the girl..");
