@@ -99,7 +99,7 @@ audio {
 }
 
 footer {
-  height: 500px;
+  height: 450px;
   width: 100%;
   background-color: black;
   color: white;
@@ -112,24 +112,11 @@ footer {
   border-radius: 40px;
 }
 
-/*.navbar-default {
-  background-color: black;
-  padding-top: 10px;
-  border-radius: 40px;
-  border-color: black;
-}
-
-.navbar-nav {
-  margin-left: 200px;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: white;
-  font-weight: bold;
-  font-size: 26px;
-  font-family: fantasy;
-  padding: 40px;
-  border-radius: 40px;*/
+.col-md-4 {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  margin-top: 30px;
 }
 
 .top-box {
@@ -137,6 +124,13 @@ footer {
   background-color: black;
   opacity: 0.8;
   filter: alpha(opacity=30);
+}
+
+a {
+  color: red;
+}
+a:hover {
+  color: white;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Denk+One);
@@ -666,3 +660,70 @@ h1 {
     left: 50%;
   }
 }
+
+/* Robot ---------------------------- */
+
+i.robot {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-robot.svg); /* Fallback */
+    background-position: 0 center, center;
+    background-image: -webkit-radial-gradient( 50% 50%, 60% 80%,
+                        hsla(0,100%,50%,.7), hsla(0,100%,20%,.8) 60%, hsla(0,100%,10%,1) ),
+                        url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-metal.jpg);
+    mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-robot.svg), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/79/mask-icons-robot.svg);
+    mask-position: 0 0, -100px 13px;
+    mask-composite: source-over;
+    transition: mask-position .3s cubic-bezier(.65, .06, 1, .42);
+    }
+
+i.robot:hover {
+    mask-position: 0 0, -100px 0px;
+    transition: mask-position .2s cubic-bezier(0, .40, .20, 1);
+    }
+
+i.robot:active {
+    mask-position: 0 0, -107px 0px;
+    transition: mask-position .1s cubic-bezier(.44, .08, .10, 1);
+    animation: robot-active .1s .2s cubic-bezier(.70, 0, .30, 1) infinite alternate;
+    }
+    @keyframes robot-active {
+          0% { mask-position: 0 0, -107px 0px; }
+        100% { mask-position: 0 0, -93px 0px; }
+    }
+
+
+
+/* Icon style ---------------------------- */
+
+i {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  filter: drop-shadow( 0  1px  1px hsla(0,0%,100%,.5) )
+          drop-shadow( 0 -6px  6px hsla(0,0%,100%,.5) )
+          drop-shadow( 0 10px 10px hsla(0,0%,  0%,.3) );
+  mask-repeat: no-repeat;
+  }
+
+i:active {
+  transform: translateY(2px);
+  filter: drop-shadow( 0  1px  1px hsla(0,0%,100%,.5) )
+                  drop-shadow( 0 -3px  6px hsla(0,0%,100%,.5) )
+                  drop-shadow( 0  5px 10px hsla(0,0%,  0%,.3));
+  }
+
+
+/* General stuff ----------------------------- */
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+  text-align: center;
+	}
+
+#icons {
+  user-select: none;
+  background-color: white;
+  }
