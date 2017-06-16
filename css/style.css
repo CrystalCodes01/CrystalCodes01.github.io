@@ -9,7 +9,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   min-height: 100%;
-  padding-bottom: 700px;
+  padding-bottom: 100px;
 }
 
 audio {
@@ -105,9 +105,9 @@ footer {
   background-color: black;
   color: white;
   font-weight: bold;
-  font-size: 26px;
-  font-family: fantasy;
-  margin-top: 500px;
+  font-size: 22px;
+  font-family: emilys-candy;
+  margin-top: 450px;
   opacity: 0.8;
   filter: alpha(opacity=30);
   border-radius: 40px;
