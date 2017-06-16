@@ -73,6 +73,7 @@ $(document).ready(function() {
     }
     else {
       alert('Please Choose!');
+      return start();
     }
   });
 
@@ -94,16 +95,17 @@ function clown() {
       var choice = $('.user-input').val();
       $('.user-input').val("");
 
-      if ( choice === "1" ) {
+      if (choice === "1" || choice === "1." || choice === "yes") {
         ride();
       }
 
-      else if (choice === "2") {
+      else if (choice === "2" || choice === "2." || choice === "no") {
         door();
       }
 
       else {
         alert('Please Choose!');
+        return start();
       }
   });
 }
@@ -123,15 +125,16 @@ function girl() {
       var choice = $('.user-input').val();
       $('.user-input').val("");
 
-      if ( choice == "1" ) {
+      if (choice === "1" || choice === "1." || choice === "yes") {
         red_ruby();
       }
 
-      else if (choice == "2") {
+      else if (choice === "2" || choice === "2." || choice === "no") {
         madgirl();
       }
       else {
         alert('Please Choose!');
+        return start();
     }
   });
 }
@@ -151,15 +154,16 @@ function girl() {
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
-        if ( choice == "1" ) {
+        if (choice === "1" || choice === "1." || choice === "jump") {
           fun_house();
         }
 
-        else if (choice == "2") {
+        else if (choice === "2" || choice === "2." || choice === "talk") {
           explore();
         }
         else {
           alert('Please Choose!');
+          return start();
       }
     });
   }
@@ -179,14 +183,15 @@ function door() {
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
-        if (choice == "1") {
+        if (choice === "1" || choice === "1." || choice === "swim") {
           dead();
           }
-        else if (choice == "2") {
+        else if (choice === "2" || choice === "2." || choice === "tunnel") {
           pennywise();
         }
         else {
           alert('Please Choose!');
+          return start();
       }
     });
   }
@@ -207,14 +212,15 @@ function red_ruby() {
         var choice = $('.user-input').val();
         $('.user-input').val("");
 
-        if (choice == "1") {
+        if (choice === "1" || choice === "1." || choice === "stay") {
           house();
         }
-        else if (choice == "2") {
+        else if (choice === "2" || choice === "2." || choice === "leave") {
           exit();
         }
         else {
           alert('Please Choose!');
+          return start();
     }
   });
 }
@@ -235,16 +241,17 @@ function fun_house() {
       var choice = $('.user-input').val();
       $('.user-input').val("");
 
-      if ( choice == "1" ) {
+      if (choice === "1" || choice === "1." || choice === "talk") {
         girl();
       }
 
-      else if (choice == "2") {
+      else if (choice === "2" || choice === "2." || choice === "gypsy") {
         gypsy();
       }
 
       else {
         alert('Please Choose!');
+        return start();
     }
   });
 }
@@ -266,16 +273,17 @@ function pennywise() {
     var choice = $('.user-input').val();
     $('.user-input').val("");
 
-    if ( choice == "1" ) {
+    if (choice === "1" || choice === "1." || choice === "run") {
       exit();
     }
 
-    else if (choice == "2") {
+    else if (choice === "2" || choice === "2." || choice === "talk") {
       explore();
     }
 
     else {
       alert('Please Choose!');
+      return start();
       }
   });
 }
@@ -295,16 +303,17 @@ function explore() {
     var choice = $('.user-input').val();
     $('.user-input').val("");
 
-    if ( choice == "1" ) {
+    if (choice === "1" || choice === "1." || choice === "leave") {
       exit();
     }
 
-    else if (choice == "2") {
+    else if (choice === "2" || choice === "2." || choice === "explore") {
       gypsy();
     }
 
     else {
       alert('Please Choose!');
+      return start();
     }
   });
 }
@@ -324,16 +333,17 @@ function madgirl() {
     var choice = $('.user-input').val();
     $('.user-input').val("");
 
-    if ( choice == "1" ) {
+    if (choice === "1" || choice === "1." || choice === "leave") {
       exit();
     }
 
-    else if (choice == "2") {
+    else if (choice === "2" || choice === "2." || choice === "clown") {
       ride();
     }
 
     else {
       alert('Please Choose!');
+      return start();
     }
   });
 }
@@ -353,16 +363,17 @@ function gypsy() {
     var choice = $('.user-input').val();
     $('.user-input').val("");
 
-    if ( choice == "1" ) {
+    if (choice === "1" || choice === "1." || choice === "leave") {
       girl();
     }
 
-    else if (choice == "2") {
+    else if (choice == "2" || choice === "2." || choice === "leave") {
       exit();
     }
 
     else {
       alert('Please Choose!');
+      return start();
     }
   });
 }
