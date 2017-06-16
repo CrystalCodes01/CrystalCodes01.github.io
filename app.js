@@ -371,7 +371,7 @@ function house() {
   var text = '<p class="typewriter typewriter1"></p><p class="typewriter typewriter2"></p><p class="typewriter typewriter3"></p><p class="typewriter typewriter4"></p>';
     $(".intro-text").html(text);
     $(".typewriter1").html("You follow the voice of the girl and her father down the tunnel.");
-    $(".typewriter2").html("As you exit, you start climbing a hill to a large house that appears out of nowhere.");
+    $(".typewriter2").html("You climb a hill to a large house that appears out of nowhere.");
     $(".typewriter3").html("You follow the girl and her father into the house where you become a vampire and live happily ever after.");
     $(".typewriter4").html("Hope you like the taste of blood!");
 
