@@ -363,7 +363,7 @@ function gypsy() {
     var choice = $('.user-input').val();
     $('.user-input').val("");
 
-    if (choice === "1" || choice === "1." || choice === "leave") {
+    if (choice === "1" || choice === "1." || choice === "girl") {
       girl();
     }
 
