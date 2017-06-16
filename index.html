@@ -29,7 +29,7 @@
           </div>
           <br>
           <form name="controlForm" id="form" onSubmit="submit()">
-          <input type="text" class="user-input custom" placeholder="Enter your choice">
+          <input type="text" id="txt" class="user-input custom" placeholder="Enter your choice" onkeyup="return forceLower(this);">
           <button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>
           </form>
     </div>
@@ -48,10 +48,10 @@
               Hurricane roller coaster were taken with a Canon AE-1 camera 1.8 lens,
               using 35mm film. The film was converted to digital for this gaming experience!</p>
             <div id="icons">
-                <i class="robot"></i>
-                  <a href="http://www.architecturendesign.net/the-40-most-breathtaking-abandoned-places-in-the-world/"></a>
+                <i class="robot" onclick="redirect()"></i>
             </div>
         </div>
+
 
         <div class="col-md-4">
           <img src="images/coaster.jpg" width="350px" height="300px">

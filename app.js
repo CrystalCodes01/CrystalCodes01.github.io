@@ -50,6 +50,13 @@ debug : false
 });
 var submit;
 
+function forceLower(strInput) {
+   { strInput.value = strInput.value.toLowerCase(); }}
+
+function redirect() {
+  window.location = "http://www.architecturendesign.net/the-40-most-breathtaking-abandoned-places-in-the-world";
+}
+
 $(document).ready(function() {
   function start() {
   $('.my-submit').replaceWith('<button class="btn btn-secondary btn-lg custom my-submit">Choose!</button>');
@@ -65,7 +72,7 @@ $(document).ready(function() {
       girl();
     }
     else {
-      return "Error";
+      alert('Please Choose!');
     }
   });
 
@@ -96,7 +103,7 @@ function clown() {
       }
 
       else {
-        return ('Error');
+        alert('Please Choose!');
       }
   });
 }
@@ -124,7 +131,7 @@ function girl() {
         madgirl();
       }
       else {
-        return ('Error');
+        alert('Please Choose!');
     }
   });
 }
@@ -152,7 +159,7 @@ function girl() {
           explore();
         }
         else {
-          return ('Error');
+          alert('Please Choose!');
       }
     });
   }
@@ -179,7 +186,7 @@ function door() {
           pennywise();
         }
         else {
-          return ('Error');
+          alert('Please Choose!');
       }
     });
   }
@@ -207,7 +214,7 @@ function red_ruby() {
           exit();
         }
         else {
-          return ('Error');
+          alert('Please Choose!');
     }
   });
 }
@@ -237,7 +244,7 @@ function fun_house() {
       }
 
       else {
-        return ('Error');
+        alert('Please Choose!');
     }
   });
 }
@@ -268,7 +275,7 @@ function pennywise() {
     }
 
     else {
-      return ('Error');
+      alert('Please Choose!');
       }
   });
 }
@@ -297,7 +304,7 @@ function explore() {
     }
 
     else {
-      return ('Error');
+      alert('Please Choose!');
     }
   });
 }
@@ -326,7 +333,7 @@ function madgirl() {
     }
 
     else {
-      return ('Error');
+      alert('Please Choose!');
     }
   });
 }
@@ -355,7 +362,7 @@ function gypsy() {
     }
 
     else {
-      return ('Error');
+      alert('Please Choose!');
     }
   });
 }
