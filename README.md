@@ -1,6 +1,9 @@
 # CrystalCodes01.github.io
 Choose your own Adventure
 
+Go to https://crystalcodes01.github.io/ to start your adventure!
+
+----
 
 Synopsis:
 
@@ -22,4 +25,3 @@ Description:
 Game designed loosely on the Swap Shop in Fort Lauderdale, Florida. 
 How to Play:
 
-Go to https://crystalcodes01.github.io/ to start your adventure!
