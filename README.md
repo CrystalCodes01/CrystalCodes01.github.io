@@ -19,8 +19,7 @@ Bootstrap
 
 Description:
 
-Game designed loosely on the Swap Shop in Fort Lauderdale, Florida. Project for Iron Hack bootcamp.
-
+Game designed loosely on the Swap Shop in Fort Lauderdale, Florida. 
 How to Play:
 
 Go to https://crystalcodes01.github.io/ to start your adventure!
