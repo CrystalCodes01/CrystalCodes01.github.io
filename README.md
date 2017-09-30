@@ -23,5 +23,4 @@ Bootstrap
 Description:
 
 Game designed loosely on the Swap Shop in Fort Lauderdale, Florida. 
-How to Play:
 
