@@ -1,8 +1,8 @@
 /* GENERAL STYLES AND HORROR ANI */
 
 h1 {
-  color: #FEFEFE;
-  text-shadow: 0px 0px 0500px rgba(255, 0, 0, 0.8);
+  color: transparent;
+  text-shadow: 0px 0px 0500px rgba(255, 0, 0, 0.5);
   font-family: 'Emilys Candy', cursive;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -14,15 +14,15 @@ h1 {
   margin-left: -600px;
   margin-top: 50px;
   -webkit-text-stroke: 2px black;
-  -webkit-animation: horror-animation 7s infinite;
-  -moz-animation: horror-animation  7s infinite;
-  -o-animation: horror-animation  7s infinite;
-  animation: horror-animation  7s infinite;
+  -webkit-animation: horror-animation 8s infinite;
+  -moz-animation: horror-animation  8s infinite;
+  -o-animation: horror-animation  8s infinite;
+  animation: horror-animation  8s infinite;
 }
 
 @-webkit-keyframes horror-animation {
   0% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 51%;
   }
   5% {
@@ -38,7 +38,7 @@ h1 {
     left: 50%;
   }
   16% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 50%;
   }
   17% {
@@ -141,11 +141,11 @@ h1 {
 
 @-moz-keyframes horror-animation {
   0% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 51%;
   }
   5% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 50%;
   }
   10% {
@@ -157,7 +157,7 @@ h1 {
     left: 50%;
   }
   16% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 50%;
   }
   17% {
@@ -221,7 +221,7 @@ h1 {
     left: 50%;
   }
   70% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 49%;
   }
   76% {
@@ -245,7 +245,7 @@ h1 {
     left: 51%;
   }
   90% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 51%;
   }
   95% {
@@ -276,7 +276,7 @@ h1 {
     left: 50%;
   }
   16% {
-    text-shadow: 0px 0px 0300px rgba(255, 0, 0, 0.8);
+    text-shadow: 0px 0px 300px rgba(255, 0, 0, 0.8);
     left: 50%;
   }
   17% {
